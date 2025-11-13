@@ -1,0 +1,75 @@
+@font-face{ 
+	font-family: 'levon';
+	src: url('../fonts/levon.ttf');
+}
+body {
+	background-color:#3d5a80ff;
+	font-family: 'levon', sans-serif;
+}
+nav a{
+	display: inline;
+	margin-right: 15vw;
+}
+div {
+	color:#ee6c4dff;
+	border: 10px solid #98c1d9ff;
+	padding: 20px; 
+	margin: 30px;
+}
+a:link {
+	color:#ee6c4dff;
+}
+a:visited {
+	color:#e0fbfcff;
+}
+img{
+  width: 100%;
+  height: auto;
+  border: 5px dotted #98c1d9ff;
+  max-width: 600px;
+}
+#important1{
+	font-size: 400%;
+}
+.navbar ul {
+  display: flex; 
+  align-items: center; 
+  list-style: none; 
+  background-color: #333; 
+  padding: 10px;
+  margin: 0;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.navbar a:hover {
+  background-color: #98c1d9ff; 
+  border-radius: 1px;
+}
+.navbar {
+  position: fixed;    
+  top: 0;             
+  left: 0;            
+  width: 100%;        
+  background-color: #ee6c4dff;
+  color: #ee6c4dff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;      
+  }
+
+
+
+
+
+/*--yinmn-blue: #3d5a80ff;
+--powder-blue: #98c1d9ff;
+--light-cyan: #e0fbfcff;
+--burnt-sienna: #ee6c4dff;
+--gunmetal: #293241ff;*/
+
+
