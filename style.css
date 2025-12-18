@@ -1,6 +1,6 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('../fonts/levon.ttf');
+	src: url('levon.ttf');
 }
 body {
 	background-color:#fdf0d5ff;
