@@ -1,31 +1,42 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('levon.ttf');}
+	src: url('../fonts/levon.ttf');}
 body{ 
-	background-color:#3d5a80ff;
+	background-color:#fdf0d5ff;
 	font-family: 'levon', sans-serif;}
 .section-heading {
-	color:#ee6c4dff;}
+	color:#780000ff;
+}
 .section-heading-two {
-	color:#ee6c4dff;}
+	color:#780000ff;
+}
 .navigation{
-	color:#ee6c4dff }
+	color:#780000ff; 
+}
 a:link{
-	color:#ee6c4dff}
+	color:#ee6c4dff;
+}
 a:visited{
-	color:#e0fbfcff}
+	color:#e0fbfcff;
+}
 .team-section{
-	color:#98c1d9ff }
+	color:#780000ff; 
+}
 .lists{
-	color:#ee6c4dff}
+	color:#003049ff;
+}
 .drivers{
-	color: white;}
+	color:#003049ff;
+}
 #important2{
-	color:#ee6c4dff}
+	color:#003049ff;
+}
 #important2:hover{
-	color:pink;}
+	color:pink;
+}
 p::first-letter{
-	font-size: 200%;}
+	font-size: 200%;
+}
 
 .navbar ul {
   display: flex; 
@@ -42,7 +53,7 @@ p::first-letter{
   padding: 8px 1px;
 }
 .navbar a:hover {
-  background-color: #98c1d9ff; 
+  background-color: #003049ff; 
   border-radius: 1px;
 }
 .navbar {
@@ -50,15 +61,21 @@ p::first-letter{
   top: 0;             
   left: 0;            
   width: 100%;        
-  background-color: #ee6c4dff;
-  color: #ee6c4dff;
+  background-color:#780000ff;
+  color: #780000ff;
   padding: 10px 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 1000;      
   }
+ 
 
+--molten-lava: #780000ff;
+--brick-red: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--deep-space-blue: #003049ff;
+--steel-blue: #669bbcff;
 	
 /*--yinmn-blue: #3d5a80ff;
 --powder-blue: #98c1d9ff;
