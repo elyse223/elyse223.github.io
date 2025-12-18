@@ -1,6 +1,6 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('../fonts/levon.ttf');}
+	src: url('levon.ttf');}
 .section-heading-driver {
 	color: red;}
 .section-heading-constructor {
