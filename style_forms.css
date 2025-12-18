@@ -1,6 +1,6 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('levon.ttf');}
+	src: url('../fonts/levon.ttf');}
 .section-heading-driver {
 	color: red;}
 .section-heading-constructor {
@@ -8,35 +8,35 @@
 .section-email {
 	color: red;}
 body{
-	background-color:#3d5a80ff;
+	background-color:#fdf0d5ff;
 	font-family:'levon', sans-serif;}
 .navigation{
-	color:#ee6c4dff;}
+	color:#780000ff;}
 a:link{
 	color:#ee6c4dff;}
 a:visited{
 	color:#e0fbfcff;}
 .section-heading-driver{
-	color:#ee6c4dff;}
+	color:#780000ff;}
 .section-heading-traco{	
-	color:#ee6c4dff;}
+	color:#780000ff;}
 .section-heading-constructor{
-	color:#ee6c4dff;}
+	color:#780000ff;}
 .email{
-	color:#ee6c4dff;}
+	color:#780000ff;}
 .select{
-	color:#98c1d9ff;}
+	color:#669bbcff;}
 .writing{
-	color: white;}
+	color: #003049ff;}
 .section-heading-track{
-	color:#ee6c4dff;}
+	color:#780000ff;}
 div {
-	border: 10px solid #98c1d9ff;
+	border: 10px solid #780000ff;
 	padding: 20px;
 	margin: 30px;
 }
 button:focus {
-  border: 2px solid #ee6c4dff;
+  border: 2px solid #780000ff;
   background-color: #98c1d9ff;
 }
 .navbar ul {
@@ -54,7 +54,7 @@ button:focus {
   padding: 8px 1px;
 }
 .navbar a:hover {
-  background-color: #98c1d9ff; 
+  background-color:  #003049ff; 
   border-radius: 1px;
 }
 .navbar {
@@ -62,8 +62,8 @@ button:focus {
   top: 0;             
   left: 0;            
   width: 100%;        
-  background-color: #ee6c4dff;
-  color: #ee6c4dff;
+  background-color: #780000ff;
+  color:  #003049ff;
   padding: 10px 40px;
   display: flex;
   justify-content: space-around;
