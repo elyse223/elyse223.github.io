@@ -1,9 +1,9 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('levon.ttf');
+	src: url('../fonts/levon.ttf');
 }
 body {
-	background-color:#3d5a80ff;
+	background-color:#fdf0d5ff;
 	font-family: 'levon', sans-serif;
 }
 nav a{
@@ -11,13 +11,16 @@ nav a{
 	margin-right: 15vw;
 }
 div {
-	color:#ee6c4dff;
-	border: 10px solid #98c1d9ff;
+	color: #780000ff;
+	border: 10px solid #780000ff;
 	padding: 20px; 
 	margin: 30px;
 }
+.newfont {
+    color:#003049ff;
+}
 a:link {
-	color:#ee6c4dff;
+	color:#e0fbfcff;
 }
 a:visited {
 	color:#e0fbfcff;
@@ -25,7 +28,7 @@ a:visited {
 img{
   width: 100%;
   height: auto;
-  border: 5px dotted #98c1d9ff;
+  border: 5px dotted #780000ff;
   max-width: 600px;
 }
 #important1{
@@ -35,9 +38,12 @@ img{
   display: flex; 
   align-items: center; 
   list-style: none; 
-  background-color: #333; 
+  background-color: #780000ff; 
   padding: 10px;
   margin: 0;
+}
+.mynav { 
+    color: #003049ff;
 }
 .navbar a {
   color: white;
@@ -45,7 +51,7 @@ img{
   padding: 8px 16px;
 }
 .navbar a:hover {
-  background-color: #98c1d9ff; 
+  background-color: #003049ff; 
   border-radius: 1px;
 }
 .navbar {
@@ -53,9 +59,9 @@ img{
   top: 0;             
   left: 0;            
   width: 100%;        
-  background-color: #ee6c4dff;
-  color: #ee6c4dff;
-  padding: 10px 20px;
+  background-color: #780000ff;
+  color: #001427ff;
+  padding: 5px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,13 +69,8 @@ img{
   }
 
 
-
-
-
-/*--yinmn-blue: #3d5a80ff;
---powder-blue: #98c1d9ff;
---light-cyan: #e0fbfcff;
---burnt-sienna: #ee6c4dff;
---gunmetal: #293241ff;*/
-
-
+/*--molten-lava: #780000ff;
+--brick-red: #c1121fff;
+--papaya-whip: #fdf0d5ff;
+--deep-space-blue: #003049ff;
+--steel-blue:#003049ff;*/
