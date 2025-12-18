@@ -1,25 +1,28 @@
 @font-face{ 
 	font-family: 'levon';
-	src: url('levon.ttf');
+	src: url('../fonts/levon.ttf');
 }
 body{
-	background-color:#3d5a80ff;
+	background-color:#fdf0d5ff;
 	font-family: 'levon', sans-serif;
 }
 .section-external-links {
-	color:#ee6c4dff;
+	color:#003049ff;
 }
 a:link{
-	color:#ee6c4dff;
+	color:#003049ff;
 }
 a:visited{
-	color:#e0fbfcff;
+	color:#001427ff;
 }
 .navigation{
 	color:#ee6c4dff
 }
+.external{
+	color: #003049ff;
+}
 .square {
-	border: 10px solid #98c1d9ff;
+	border: 10px solid #780000ff;
 	padding: 20px;
 	margin: 30px;
 	display: block;
@@ -40,7 +43,7 @@ a:visited{
   padding: 8px 1px;
 }
 .navbar a:hover {
-  background-color: #98c1d9ff; 
+  background-color: #003049ff; 
   border-radius: 1px;
 }
 .navbar {
@@ -48,15 +51,14 @@ a:visited{
   top: 0;             
   left: 0;            
   width: 100%;        
-  background-color: #ee6c4dff;
-  color: #ee6c4dff;
+  background-color: #780000ff;
+  color: #001427ff;;
   padding: 10px 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 1000;      
   }
-
 
 /*--yinmn-blue: #3d5a80ff;
 --powder-blue: #98c1d9ff;
